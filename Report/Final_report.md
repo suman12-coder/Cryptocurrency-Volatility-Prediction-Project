@@ -42,7 +42,8 @@ This project predicts next-day volatility in cryptocurrency prices using Random 
 
 
 # Best parameters from tuning:
-- {'max_depth': 5, 'min_samples_split': 2, 'min_samples_leaf': 1, 'n_estimators': 200}
+
+{'max_depth': 5, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100}
 
 # Deployment
 - Used **Streamlit** for front-end  
